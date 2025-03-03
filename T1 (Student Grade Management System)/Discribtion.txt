@@ -1,0 +1,76 @@
+Project Title: Student Grade Management System
+Objective:
+Build a simple Python-based system where users can:
+
+Add students and their grades.
+
+Calculate averages, highest/lowest grades, and performance levels.
+
+Use functions, loops, conditionals, and data structures effectively.
+
+Phase 1: Collecting and Storing Data
+Concepts Covered:
+✅ Variables, Data Types, User Input, Lists, Dictionaries
+
+Tasks:
+Ask the user to enter student names and their grades.
+
+Store the data in a dictionary, where the student’s name is the key and the grade is the value.
+
+Allow multiple entries until the user types "done".
+
+Example Interaction:
+
+
+Enter student name (or type 'done' to finish): Ali
+Enter Ali's grade: 85
+Enter student name (or type 'done' to finish): Mona
+Enter Mona's grade: 92
+Enter student name (or type 'done' to finish): Omar
+Enter Omar's grade: 76
+Enter student name (or type 'done' to finish): done
+Phase 2: Processing Data & Calculating Results
+Concepts Covered:
+✅ Operators, Loops, Conditionals, Functions
+
+Tasks:
+Create a function to calculate:
+
+The class average grade.
+
+The highest and lowest grades.
+
+The top-performing student.
+
+Determine performance levels based on grades:
+
+90-100: Excellent
+
+75-89: Good
+
+Below 75: Needs Improvement
+
+Phase 3: Displaying Results in a Report
+Concepts Covered:
+✅ Print Statements, String Formatting
+
+Tasks:
+Print the results clearly with section titles.
+
+Format output properly (aligned text, structured layout).
+
+Example Output:
+
+
+Class Performance Report
+-------------------------
+Total Students: 3
+Average Grade: 84.33
+Highest Grade: 92 (Mona)
+Lowest Grade: 76 (Omar)
+Performance Breakdown:
+Ali - 85 (Good)
+Mona - 92 (Excellent)
+Omar - 76 (Good)
+Submission Requirements:
+Handles invalid inputs, ensuring grades are numeric.
