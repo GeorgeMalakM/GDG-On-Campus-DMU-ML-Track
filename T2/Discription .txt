@@ -1,0 +1,85 @@
+Project Title: Retail Sales Data Analysis System
+
+Objective:
+
+Build a simple Python system where users can:
+✅ Load sales data from a CSV file.
+✅ Calculate key metrics like total revenue, average sale, highest/lowest sale, and best-selling product using pandas and NumPy.
+
+Phase 1: Collecting and Storing Data
+
+Concepts Covered:
+✅ File Handling, DataFrames, Basic Data Cleaning
+
+Tasks:
+
+Ask the user to enter the file path of a sales CSV file.
+
+Load the CSV into a pandas DataFrame.
+
+Display a short summary (e.g., number of transactions).
+
+Example Interaction:
+
+Enter the path to your sales data file: sales_data.csv
+Loading data...
+Data loaded! Total transactions: 1000
+
+Phase 2: Processing Data & Calculating Results
+
+Concepts Covered:
+✅ NumPy Operations, Data Aggregation, Basic Statistics
+
+Tasks:
+
+Create functions to calculate:
+
+Total Revenue
+
+Average Sale per Transaction
+
+Highest and Lowest Sales
+
+Best-Selling Product
+
+Phase 3: Displaying Results in a Report
+
+Concepts Covered:
+✅ Print Statements, String Formatting
+
+Tasks:
+
+Print a clear report with section titles.
+
+Format the output to show:
+
+Total transactions
+
+Total revenue
+
+Average sale
+
+Highest and lowest sales
+
+Best-selling product
+
+Example Output:
+
+Retail Sales Report
+----------------------------
+Total Transactions: 1000
+Total Revenue: $250,000
+Average Sale: $250
+Highest Sale: $5,000 (Product: Laptop)
+Lowest Sale: $5 (Product: Notebook)
+Best-Selling Product: Widget A
+
+Submission Requirements:
+
+A single .py file with clear comments.
+
+The CSV file should be included in the repository.
+
+The program must handle missing or incorrect data gracefully.
+
+Upload the project to a GitHub repo and share the link.
